@@ -1,0 +1,35 @@
+{
+  "name": "flex.box",
+  "version": "1.0.0",
+  "description": "A Flex and Box React Component Wrapper around Flexbox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fewhnhouse/flex.box.git"
+  },
+  "keywords": [
+    "Flexbox",
+    "Flex",
+    "React"
+  ],
+  "author": "Felix Wohnhaas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fewhnhouse/flex.box/issues"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "homepage": "https://github.com/fewhnhouse/flex.box#readme",
+  "dependencies": {
+    "@types/react": "^16.8.14",
+    "@types/styled-components": "^4.1.14",
+    "react": "^16.8.6",
+    "styled-components": "^4.2.0",
+    "typescript": "^3.4.4"
+  }
+}
