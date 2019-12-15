@@ -1,5 +1,5 @@
 {
-  "name": "@fewhnhouse/flex.box",
+  "name": "@fe.whnhouse/flex.box",
   "version": "1.0.0",
   "description": "A Flex and Box React Component Wrapper around Flexbox.",
   "main": "build/index.js",
