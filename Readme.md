@@ -4,9 +4,9 @@
 
 You can simply install this Repo via `npm`. It requires you to use `styled-components` and `react` (they are listed as peer dependencies of this project).
 
-`npm install @fewhnhouse/flex.box`
+`npm install @fe.whnhouse/flex.box`
 
-`yarn add @fewhnhouse/flex.box`
+`yarn add @fe.whnhouse/flex.box`
 
 ## Usage
 
