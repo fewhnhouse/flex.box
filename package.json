@@ -1,11 +1,13 @@
 {
-  "name": "flex.box",
+  "name": "@fewhnhouse/flex.box",
   "version": "1.0.0",
   "description": "A Flex and Box React Component Wrapper around Flexbox.",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
+  "types": "build/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fewhnhouse/flex.box.git"
@@ -21,15 +23,13 @@
     "url": "https://github.com/fewhnhouse/flex.box/issues"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-dom": "*"
+    "react": "16.9.16",
+    "styled-components": "^4.4.1"
   },
-  "homepage": "https://github.com/fewhnhouse/flex.box#readme",
-  "dependencies": {
-    "@types/react": "^16.8.14",
-    "@types/styled-components": "^4.1.14",
-    "react": "^16.8.6",
-    "styled-components": "^4.2.0",
-    "typescript": "^3.4.4"
+  "devDependencies": {
+    "@types/react": "^16.9.16",
+    "@types/styled-components": "^4.4.1",
+    "typescript": "^3.7.3",
+    "prettier": "^1.19.1"
   }
 }
