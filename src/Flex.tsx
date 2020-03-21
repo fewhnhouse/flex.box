@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import React from 'react'
 
 export interface IFlexParentProps {
+  fullWidth?: boolean
+  fullHeight?: boolean
   justify?: 'flex-start' | 'flex-end' | 'center' | 'space-around' | 'space-between' | 'space-evenly'
   align?: 'stretch' | 'flex-start' | 'flex-end' | 'center' | 'baseline'
   alignContent?: 'flex-start' | 'flex-end' | 'center' | 'space-around' | 'space-between' | 'strech'
@@ -21,6 +23,8 @@ export interface IFlexChildProps {
 
 const FlexParent = styled.div`
   display: flex;
+  width: ${(props: IFlexParentProps) => (props.fullWidth ? '100%' : '')};
+  height: ${(props: IFlexParentProps) => (props.fullHeight ? '100%' : '')};
   flex-direction: ${(props: IFlexParentProps) => (props.direction ? props.direction : 'row')};
   justify-content: ${(props: IFlexParentProps) => (props.justify ? props.justify : 'flex-start')};
   align-content: ${(props: IFlexParentProps) => (props.alignContent ? props.alignContent : 'stretch')};

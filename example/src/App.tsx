@@ -17,9 +17,9 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <StyledFlexParent direction="column" justify="space-between" align="center">
-        <StyledFlexChild color="red"/>
-        <StyledFlexChild color="green"/>
-        <StyledFlexChild color="blue"/>
+        <StyledFlexChild color="red" />
+        <StyledFlexChild color="green" />
+        <StyledFlexChild color="blue" />
       </StyledFlexParent>
     </div>
   )

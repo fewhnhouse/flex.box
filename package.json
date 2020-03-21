@@ -1,6 +1,6 @@
 {
   "name": "@fe.whnhouse/flex.box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Flex and Box React Component Wrapper around Flexbox.",
   "main": "build/index.js",
   "scripts": {

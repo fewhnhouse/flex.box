@@ -23,6 +23,8 @@ interface IFlexChildProps {
 }
 
 interface IFlexParentProps {
+  fullWidth?: boolean
+  fullHeight?: boolean
   justify?: 'flex-start' | 'flex-end' | 'center' | 'space-around' | 'space-between' | 'space-evenly'
   align?: 'stretch' | 'flex-start' | 'flex-end' | 'center' | 'baseline'
   alignContent?: 'flex-start' | 'flex-end' | 'center' | 'space-around' | 'space-between' | 'strech'
